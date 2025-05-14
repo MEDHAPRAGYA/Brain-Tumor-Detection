@@ -1,0 +1,1 @@
+(model.predict(input_img) > 0.5).astype("int32")
